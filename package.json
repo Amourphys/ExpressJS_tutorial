@@ -1,0 +1,24 @@
+{
+  "name": "beginer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-fileupload": "^1.2.1",
+    "mogoose": "^0.0.1-security",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "mongoose": "^6.1.4",
+    "nodemon": "^2.0.15"
+  }
+}
